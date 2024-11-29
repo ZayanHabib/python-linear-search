@@ -12,7 +12,7 @@ def search():
             found = True
         index = index + 1
     if found == True:
-        print(f"Item found at index : {index - 1}")
+        print(f"Item found at index : {index - 1} and your item is {MyList[index - 1]}")
     else:
         print("Item not found :(")
 
